@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #34495e;
+}
+
+.box{
+width: 300px;
+padding: 60px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50% );
+background: #191919;
+text-align: center;
+border-radius: 15px
+}
+
+.box h1{
+    font-family: 'Kiwi Maru', serif;
+    color: white;
+    opacity: 1;
+    transition: 2.00s ease-in;
+}
+
+.box input[type="text"],.box input[type="password"]{
+   border: 0;
+   background: none;
+   display: block;
+   margin: 35px auto;
+   text-align: center;
+   border: 2px solid cornflowerblue;
+   border-radius: 30px;
+   padding: 18px 14px;
+   width: 220px;
+   outline: none;
+   color: white;
+   transition: 0.65s;
+}
+
+.box input[type="submit"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid rgb(105, 237, 100);
+    border-radius: 30px;
+    padding: 14px 10px;
+    width: 140px;
+    outline: none;
+    color: white;
+    transition: 0.05s;
+    text-transform: uppercase;
+}
+
+.box input[type="text"]:focus,.box input[type="password"]:focus{
+    width: 268px;
+    border-color: rgb(111, 7, 195);
+}
+
+.box input[type="submit"]:hover{
+    background: rgb(105, 237, 100);
+
+}
